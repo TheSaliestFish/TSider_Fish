@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TSider_Fish",
-  "description": "A simple sidebar",
+  "description": "A simple sidebar of Yukigpt",
   "version": "1.0",
   "side_panel": {
     "default_path": "sidebar.html"
