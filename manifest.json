@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TSider_Fish",
+  "description": "A simple sidebar",
+  "version": "1.0",
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "permissions": [
+    "sidePanel"
+  ]
+}
