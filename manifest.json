@@ -3,10 +3,15 @@
   "name": "TSider_Fish",
   "description": "A simple sidebar of Yukigpt",
   "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
   "side_panel": {
     "default_path": "sidebar.html"
   },
   "permissions": [
-    "sidePanel"
+    "sidePanel",
+    "tabs",
+    "activeTab"
   ]
 }
