@@ -9,6 +9,9 @@
   "side_panel": {
     "default_path": "sidebar.html"
   },
+  "action": {
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "sidePanel",
     "tabs",
