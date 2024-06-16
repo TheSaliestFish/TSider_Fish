@@ -1,0 +1,25 @@
+#chat {
+  width: 385px;
+  height: 379px;
+  background-color: white;
+}
+
+.chat-info {
+  width: 360px;
+  height: 196px;
+  background-color: white;
+  position: relative;
+  top: 14px;
+  margin: 0px auto;
+}
+
+.item-center {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content-area {
+  margin-left: 21px;
+  font-size: 14px;
+}
