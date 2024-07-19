@@ -7,6 +7,6 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.action.onClicked.addListener(() => {
   console.log('Button clicked');
-  const url = 'http://121.199.79.7:40042/#/chat';
+  const url = 'http://gpt.yuki.uno';
   chrome.tabs.create({ url });
 });

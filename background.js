@@ -3,7 +3,7 @@ console.log('Background script is running');
 chrome.runtime.onInstalled.addListener(() => {
     console.log('Extension installed');
     // 加载拓展时打开一个新标签页
-    chrome.tabs.create({ url: 'http://121.199.79.7:40042/#/chat' });
+    chrome.tabs.create({ url: 'http://gpt.yuki.uno' });
 });
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
